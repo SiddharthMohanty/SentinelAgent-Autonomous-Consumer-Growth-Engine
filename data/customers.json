@@ -1,0 +1,87 @@
+{
+  "CUST-101": {
+    "name": "Acme Healthcare",
+    "tier": "Enterprise",
+    "ltv": 150000,
+    "tenure_months": 36,
+    "recent_support_tickets": [
+      "API rate limit exceeded during critical data sync",
+      "Dashboard latency over 5 seconds"
+    ],
+    "account_status": "Active"
+  },
+  "CUST-102": {
+    "name": "Dr. Smith Clinic",
+    "tier": "Starter",
+    "ltv": 1200,
+    "tenure_months": 2,
+    "recent_support_tickets": [
+      "How do I reset my password?",
+      "Invoice receipt not received"
+    ],
+    "account_status": "Active"
+  },
+  "CUST-103": {
+    "name": "City General Hospital",
+    "tier": "Professional",
+    "ltv": 45000,
+    "tenure_months": 14,
+    "recent_support_tickets": [
+      "Integration with Epic EMR failing repeatedly",
+      "Patient records not syncing"
+    ],
+    "account_status": "Flagged"
+  },
+  "CUST-104": {
+    "name": "Global MedTech Partners",
+    "tier": "Enterprise",
+    "ltv": 250000,
+    "tenure_months": 48,
+    "recent_support_tickets": [
+      "Can we add 5 more administrator seats?",
+      "Need a copy of last year's tax compliance form"
+    ],
+    "account_status": "Active"
+  },
+  "CUST-105": {
+    "name": "Independent Pharmacy Group",
+    "tier": "Starter",
+    "ltv": 500,
+    "tenure_months": 1,
+    "recent_support_tickets": [
+      "URGENT: I can see other users' prescription data!!",
+      "Security breach in the portal"
+    ],
+    "account_status": "Active"
+  },
+  "CUST-106": {
+    "name": "Downtown Physio",
+    "tier": "Professional",
+    "ltv": 18000,
+    "tenure_months": 6,
+    "recent_support_tickets": [
+      "Oh I just LOVE it when the dashboard goes down on a Monday morning. Best app ever.",
+      "Are you guys even testing your updates?"
+    ],
+    "account_status": "Active"
+  },
+  "CUST-107": {
+    "name": "National Health Network",
+    "tier": "Enterprise",
+    "ltv": 110000,
+    "tenure_months": 24,
+    "recent_support_tickets": [
+      "We are migrating to a competitor next month.",
+      "Who is our dedicated account manager for offboarding?"
+    ],
+    "account_status": "Active"
+  },
+  "CUST-108": {
+    "name": "Sunrise Dental",
+    "tier": "Starter",
+    "ltv": 2400,
+    "tenure_months": 12,
+    "recent_support_tickets": [],
+    "account_status": "Active"
+  }
+}

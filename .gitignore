@@ -1,0 +1,39 @@
+# =========================
+# SentinelAgent .gitignore
+# =========================
+
+# 1. Virtual Environments
+# (Never push the massive dependency folders to git)
+venv/
+env/
+.venv/
+
+# 2. Secrets and Environment Variables
+# (CRITICAL: Never push OpenAI/Anthropic API keys)
+.env
+.env.local
+.env.*
+
+# 3. Python Cache
+# (Compiled bytecode that Python generates locally)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 4. Databases & LangGraph Checkpointers
+# (If you upgrade from MemorySaver to SQLite for persistence)
+*.sqlite3
+*.sqlite
+*.db
+
+# 5. IDE & OS specific files
+# (VS Code settings and Mac/Windows background files)
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 6. Streamlit Cache
+# (Local UI configurations)
+.streamlit/
